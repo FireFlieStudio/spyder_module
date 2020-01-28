@@ -130,6 +130,22 @@ cd函数用于切换工作目录,接收一个参数(name)
 cd('/root')
 
 
+骚操作:
+
+url=spyder('http://down.firefliestudio.com/spyder_module/',pro='on').xpath("/html/body/pre/a[2]/@href")
+
+
+mkdir('tmp')
+
+cd('tmp')
+
+
+down(url)
+
+
+write('log','Done!')
+
+
 感谢您的使用,如果发现该模块有任何BUG请给我们反馈,我们的邮箱:
 
 
