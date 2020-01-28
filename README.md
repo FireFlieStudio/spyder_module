@@ -85,7 +85,7 @@ write函数用于写入数据(写入txt文本),接收两个参数(分别是: nam
 ①.name参数控制输出的文件名字.
 
 
-②.datas参数为数据,既写入内容.
+②.datas参数为数据,既写入内容.(不可用于for中)
 
 
 
@@ -147,10 +147,8 @@ mkdir('tmp')
 cd('tmp')
 
 
-down(file_url)
+down(file_url,mod='txt')
 
-
-write('log','Done!')
 
 
 感谢您的使用,如果发现该模块有任何BUG请给我们反馈,我们的邮箱:
