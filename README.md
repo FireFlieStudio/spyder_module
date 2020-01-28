@@ -44,9 +44,6 @@ spyder('http://down.firefliestudio.com/spyder_module/')
 代理模式:
 spyder('http://down.firefliestudio.com/spyder_module/',pro='on')
 
-代理下载模式:
-spyder('http://down.firefliestudio.com/spyder_module/module.py',pro='on',down='on')
-
 
 
 2.down()
