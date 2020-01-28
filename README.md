@@ -131,16 +131,21 @@ cd('/root')
 
 
 骚操作:
+url='http://down.firefliestudio.com/spyder_module/'
 
-url=spyder('http://down.firefliestudio.com/spyder_module/',pro='on').xpath("/html/body/pre/a[2]/@href")
+
+file=spyder(url,pro='on').xpath("/html/body/pre/a[2]/@href")
+
+file_url= str(url) + str(file)
 
 
 mkdir('tmp')
 
+
 cd('tmp')
 
 
-down(url)
+down(file_url)
 
 
 write('log','Done!')
