@@ -4,7 +4,7 @@ FireFlieStudio：一个懒人爬虫模块.
 
 (使用条件:
 版本:python3
-,模块: requests redis lxml os )
+,模块: requests redis random lxml os )
 
 
 (注:本模块需要安装redis,作者会尽快更新,摆脱redis的魔爪,若您没有安装redis则代理模式无法正常使用,其他各模块可正常使用)
