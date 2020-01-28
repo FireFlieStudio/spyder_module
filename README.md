@@ -29,6 +29,8 @@ spyder函数用于爬取网站源码,接收三个参数(分别是: url pro down)
 
 
 实例:
+
+
 仅爬取模式:
 spyder('http://down.firefliestudio.com/spyder_module/') 
 
@@ -57,6 +59,8 @@ down函数用于下载文件,接收三个参数(分别是: url name mod).
 
 
 实例:
+
+
 下载txt文件:
 down('http://down.firefliestudio.com/spyder_module/README.txt')
 
@@ -82,6 +86,8 @@ write函数用于写入数据(写入txt文本),接收两个参数(分别是: nam
 
 
 实例:
+
+
 写入数据:
 write('newfile','Hello World')
 
@@ -96,6 +102,8 @@ mkdir函数由于创建文件夹,接收一个参数(name)
 ①.name参数控制文件夹的名字.
 
 实例:
+
+
 创建文件夹:
 mkdir('newdir')
 
@@ -112,5 +120,7 @@ cd函数用于切换工作目录,接收一个参数(name)
 
 
 实例:
+
+
 切换工作目录:
 cd('/root')
