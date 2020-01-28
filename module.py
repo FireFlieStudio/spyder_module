@@ -40,8 +40,8 @@ def spyder(url,pro='off',down='off'):
 
 
 import os
-def down(url,name='null',mod='txt'):
-    datas=spyder(url,'on')
+def down(url,name='null',mod='txt',pro='off'):
+    datas=spyder(url,pro=pro)
     if name == 'null' :
         name=os.path.basename(url)
     if mod == 'txt' :
