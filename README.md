@@ -138,7 +138,7 @@ url='http://down.firefliestudio.com/spyder_module/'
 
 file=spyder(url,pro='on').xpath("/html/body/pre/a[2]/@href")[0]
 
-file_url= str(url) + str(file)
+file_url= url + file
 
 
 mkdir('tmp')
