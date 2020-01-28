@@ -14,7 +14,7 @@ FireFlieStudio：一个懒人爬虫模块.
 
 from module import *
 
-(注:模块文件位置要至于PATH或项目文件旁.)
+(注:模块文件位置要置于PATH或项目文件旁.)
 
 二.使用模块
 内置函数:
