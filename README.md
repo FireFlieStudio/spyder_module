@@ -131,3 +131,12 @@ cd函数用于切换工作目录,接收一个参数(name)
 
 切换工作目录:
 cd('/root')
+
+
+感谢您的使用,如果发现该模块有任何BUG请给我们反馈,我们的邮箱:
+
+
+firefliestudio@163.com
+
+
+由FireFlies'Studio发布源码
