@@ -41,7 +41,7 @@ def spyder(url,pro='off',down='off'):
 
 import os
 def down(url,name='null',mod='txt',pro='off'):
-    datas=spyder(url,pro=pro)
+    datas=spyder(url,pro=pro,down='on')
     if name == 'null' :
         name=os.path.basename(url)
     if mod == 'txt' :
