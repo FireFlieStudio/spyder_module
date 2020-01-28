@@ -64,7 +64,13 @@ def write_picv(name,datas):
         f.close()
         
         
+import os
+def write(name,datas):
+    with open(name,'wb') as f:
+        f.write(datas)
+        f.close()
         
+                
 import os
 def mkdir(name):
     if not os.path.isdir(name):
