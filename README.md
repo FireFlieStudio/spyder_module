@@ -1,6 +1,5 @@
 # spyder_module
-FireFlieStudio：一个懒人爬虫模块.
-使用方法：   
+FireFlieStudio：一个懒人爬虫模块.  
 
 一.导入模块
 
