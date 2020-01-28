@@ -1,6 +1,6 @@
 # spyder_module
 FireFlieStudio：一个懒人爬虫模块.  
-
+(注:本模块需要安装redis,作者会尽快更新,摆脱redis的魔爪)
 一.导入模块
 
 from module import *
