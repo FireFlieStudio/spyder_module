@@ -34,6 +34,7 @@ def spyder(url,pro='off',down='off'):
                 continue
         except:
             print('[请求超时!]' + str(proxy))
+            continue
         else:
             source_encoding = resp.apparent_encoding or resp.encoding
             if down == 'off' :
