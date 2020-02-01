@@ -33,7 +33,7 @@ def spyder(url,pro='off',down='off'):
                 print('[返还数据为空!]')
                 continue
         except:
-            print('[请求超时!]' + str(proxy))
+            print('[请求超时!]')
             continue
         else:
             source_encoding = resp.apparent_encoding or resp.encoding
