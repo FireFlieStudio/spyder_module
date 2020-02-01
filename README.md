@@ -4,10 +4,7 @@ FireFlieStudio：一个懒人爬虫模块.
 
 (使用条件:
 版本:python3
-,模块: requests redis random lxml os )
-
-
-(注:本模块需要安装redis,作者会尽快更新,摆脱redis的魔爪,若您没有安装redis则代理模式无法正常使用,其他各模块可正常使用)
+,模块: requests random lxml os )
 
 
 一.导入模块
@@ -66,13 +63,13 @@ down函数用于下载文件,接收三个参数(分别是: url name mod).
 
 
 下载txt文件:
-down('http://down.firefliestudio.com/spyder_module/README.txt')
+down('http://down.firefliestudio.com/spyder_module/README.txt',mod='txt')
 
 下载图片:
-down('http://down.firefliestudio.com/spyder_module/FireFleStudio.png')
+down('http://down.firefliestudio.com/spyder_module/FireFleStudio.png',mod='picv')
 
 下载图片并重命名:
-down('http://down.firefliestudio.com/spyder_module/FireFleStudio.png','FFS.png')
+down('http://down.firefliestudio.com/spyder_module/FireFleStudio.png','FFS.png','picv')
 
 
 
