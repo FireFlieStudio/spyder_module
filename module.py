@@ -39,10 +39,8 @@ def spyder(url,pro='off',down='off'):
             source_encoding = resp.apparent_encoding or resp.encoding
             if down == 'off' :
                 return etree.HTML(resp.content.decode(source_encoding, errors="ignore"))
-                break
             elif down == 'on' :
                 return resp.content
-                break
 
 
 import os
