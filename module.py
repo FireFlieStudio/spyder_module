@@ -27,7 +27,7 @@ def spyder(url,pro='off',down='off'):
                 resp=requests.get(url=url,proxies=proxy,timeout=10, verify=False)
                 print('使用代理成功' + str(proxy))
             if resp.status_code != 200 :
-                print('[错误的返还码:' + resp.status_code + '!]')
+                print('[错误的返还码:' + str(resp.status_code) + '!]')
                 continue
             if len(resp.text) < 2 :
                 print('[返还数据为空!]')
